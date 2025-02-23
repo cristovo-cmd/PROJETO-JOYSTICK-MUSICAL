@@ -21,7 +21,7 @@ no momento atual(pode ser mudado ao aperta a tecla um para uma rapida troca,)
 #define BUZZER 10
 #define JOYSTICK_X 27  // Pino ADC para eixo X
 #define JOYSTICK_Y 26  // Pino ADC para eixo Y
-#define BUTTON 5       // EQUIVALNETE BOTAO A BITDOGLAB,  DEFINIDO TAMBEM COMO TECLA 1 NO TECLADO DO COMPUTADOR
+#define BUTTON 6       // EQUIVALNETE BOTAO "B" BITDOGLAB,  DEFINIDO TAMBEM COMO TECLA 1 NO TECLADO DO COMPUTADOR
 
 // Frequências para cada estado (4 notas diferentes)
 const int frequencies[4] = {440, 523, 587, 659}; // Lá, Dó, Ré, Mi
